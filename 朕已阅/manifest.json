@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "2.0",
+  "name": "链接全标已访问",
+  "short_name": "链接全标已访问",
+  "author": "Kevin Xu",
+  "description": "点击图标将当前页面所有未访问的链接标记为已访问",
+  "homepage_url": "https://github.com/imkevinxu/mark-all-as-read",
+  "icons": {
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "19": "icon/icon19.png",
+      "38": "icon/icon38.png"
+    },
+    "default_title": "链接全标已访问"
+  },
+  "permissions": ["history", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
