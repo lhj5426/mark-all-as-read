@@ -1,34 +1,10 @@
-# Mark All as Read – Chrome Extension
+# 朕已阅
 
-One-click button to mark all the links on the page as read.
+使用AI 从V2 修改了 V3 支持CHROME新版
+把原来的把原来的点一下标记访问
+再点击一下恢复未访问状态
+改成点一下标记已访问
+再点击一下把网页刷新出的新的未访问追加标记成已访问
+不再还原未访问状态
 
-This turns all links to the `:visited` color so you know what you've seen before and didn't want to click on. Useful for Hacker News, Product Hunt, Designer News, Reddit, or Craigslist.
-
-You can install this extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl).
-
-[![Mark All as Read on Chrome Web Store](screenshots/webstore.png)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-[![Screenshot](screenshots/screenshot.png)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-## Features
-
-- Click the icon in the extensions bar once to mark all links as read
-- Click again to mark all links as unread (there's a small lag)
-
-## Notes
-
-This extension naiively adds every single anchor tag to your Chrome history (this DOES NOT mean it clicks every link). The result is it can flood your Chrome history with lots of links.
-
-## Examples
-
-[![Hacker News Example](screenshots/hn.gif)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-[![Product Hunt Example](screenshots/ph.gif)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-[![Designer News Example](screenshots/dn.gif)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-[![Reddit Example](screenshots/reddit.gif)](https://chrome.google.com/webstore/detail/mark-all-as-read/hocgdeifbnjnhhjiphmooojohmahocdl)
-
-## License
-
-Mark All as Read is licensed under the [MIT License](LICENSE).
+方便查看哪些资源看过 过着刷新过
