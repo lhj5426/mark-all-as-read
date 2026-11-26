@@ -17,8 +17,10 @@
 使用 诸如
 
 https://github.com/tbrowser/Turbo-Browser
+
 https://www.centbrowser.cn/history.html
-这种浏览器 内核大于135之后 启动需要加参数
+
+这种浏览器 内核大于135之后 启动需要加参数 目前测试内核 158 可用
 
 --disable-features=PartitionVisitedLinkDatabase,PartitionVisitedLinkDatabaseWithSelfLinks
 
